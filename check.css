@@ -1,0 +1,12 @@
+.cd-cart__trigger,
+.cd-cart__content {
+  position: fixed;
+  bottom: 20px;
+  right: 5%;
+  transition: transform .2s;
+}
+
+.cd-cart--empty .cd-cart__trigger,
+.cd-cart--empty .cd-cart__content { // hide cart
+  transform: translateY(150px);
+}

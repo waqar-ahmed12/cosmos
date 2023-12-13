@@ -1,0 +1,137 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body
+{
+    background-color: #6c739b;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body h1
+{
+    padding-top: 0px;
+    text-align: center;
+    color: #12252e;
+    font-size: 50px;
+}
+
+body h3
+{
+    text-align: center;
+    color: #071922;
+    font-size: 20px;
+}
+
+.sign 
+{
+    background-color: #373d63;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the start (top) of the container */
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1 
+{
+    margin: 50px 0; 
+}
+
+#button-container 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Add some margin to separate from the input fields */
+}
+
+#button-container input[type="submit"] 
+{
+    width: 48%; /* Adjust the width as needed, leaving some space between buttons */
+}
+
+#button-container input[type="submit"]:last-child 
+{
+    margin-left: 4%; /* Adjust the margin between buttons as needed */
+}
+
+
+
+form label
+{
+    margin-left: 40px;
+    display: flex;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #071922;
+    font-weight: 600;
+}
+
+
+
+form input
+{
+    background-color: rgb(121, 123, 243);
+    border: none;
+    width: 90%;
+    padding: 7px;
+    border-radius: 6px;
+    outline: none;
+    color: #252121; /* Set the text color */
+    font-family: Arial, sans-serif; /* Set the font family */
+    font-size: 14px; 
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+form input:hover
+{
+    background-color: rgb(83, 86, 240);
+    transition: 0.3s ease;
+}
+
+form input:focus
+{
+    background-color: rgb(60, 63, 238);
+    transition: 0.3s ease;
+}
+
+input[type = "submit"]
+{
+    margin-left: 9px;
+    margin-top: 10px;
+    outline: none;
+    height: 30px;
+    background-color: rgb(83, 86, 240);
+    color: rgb(24, 25, 56);
+    font-weight: 500;
+    box-shadow: none;
+    border: none;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed, this will distribute space between the buttons */
+}
+
+input[type="submit"] {
+    margin: 0; /* Remove the top margin */
+}
+
+
+input[type="submit"]:hover 
+{
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(70, 73, 168);
+    background-color: rgb(17, 17, 36);
+    transition: 0.3s ease;
+}
